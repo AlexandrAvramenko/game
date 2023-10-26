@@ -1,0 +1,51 @@
+.game {
+  text-align: center;
+}
+
+.select {
+  margin-right: 12px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 600px;
+  margin: auto;
+}
+
+.board {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.square {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+}
+
+.square.hovered {
+  background-color: #00a8f4;
+}
+.list {
+  display: grid;
+  list-style: none;
+  overflow: auto;
+  max-height: 80vh;
+  padding-left: 0;
+}
+
+.item {
+  background: #fbf8e3;
+  border-radius: 6px;
+  width: 250px;
+  padding: 6px;
+  margin: auto;
+  margin-bottom: 6px;
+}
